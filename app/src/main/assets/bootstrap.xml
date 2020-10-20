@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyncML>
+    <SyncHdr>
+        <VerDTD>1.1</VerDTD>
+        <VerProto>DM/1.2</VerProto>
+        <SessionID>1</SessionID>
+        <MsgID>1</MsgID>
+        <Target>
+            <LocURI>My_SyncML_DM_Device</LocURI>
+        </Target>
+        <Source>
+            <LocURI>http://www.TheUltimateManagementServer.com</LocURI>
+        </Source>
+    </SyncHdr>
+    <SyncBody>
+        <Add>
+            <CmdID>1</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>
+                        ./SyncML/DMAcc/UltimateManagement
+                    </LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">node</Format>
+                </Meta>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./SyncML/DMAcc/UltimateManagement/Addr</LocURI>
+                </Target>
+                <Data>www.TheUltimateManagementServer.com</Data>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./SyncML/Con/My_ISP</LocURI>
+                </Target>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./SyncML/Con/My_ISP/PX/Addr</LocURI>
+                </Target>
+                <Data>123.123.123.123</Data>
+            </Item>
+        </Add>
+<!--//        <Final />-->
+    </SyncBody>
+</SyncML>

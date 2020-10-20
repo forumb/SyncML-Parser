@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyncML>
+<SyncHdr>
+<VerDTD>1.2</VerDTD>
+<VerProto>DM/1.2</VerProto>
+<SessionID>1</SessionID>
+<MsgID>1</MsgID>
+<Target>
+<LocURI>dmtest</LocURI>
+</Target>
+<Source>
+<LocURI>http://127.0.0.1:8080/funambol/dm</LocURI>
+</Source>
+<RespURI>?sid=W0JANTQwNzYzODYtMTU4NDk0ODYyMjMxOA</RespURI>
+<Cred>
+<Meta>
+<Format xmlns='syncml:metinf'>b64</Format>
+<Type xmlns='syncml:metinf'>syncml:auth-md5</Type>
+</Meta>
+<Data>Dq77Ns5kBvpeE0/KG7lMGg==</Data>
+</Cred>
+<Meta>
+<MaxMsgSize xmlns='syncml:metinf'>16384</MaxMsgSize>
+</Meta>
+</SyncHdr>
+<SyncBody>
+<Status>
+<CmdID>1</CmdID>
+<MsgRef>1</MsgRef>
+<CmdRef>0</CmdRef>
+<Cmd>SyncHdr</Cmd>
+<TargetRef>http://127.0.0.1:8080/funambol/dm</TargetRef>
+<SourceRef>dmtest</SourceRef>
+<Data>212</Data>
+</Status>
+<Status>
+<CmdID>2</CmdID>
+<MsgRef>1</MsgRef>
+<CmdRef>1</CmdRef>
+<Cmd>Alert</Cmd>
+<Data>200</Data>
+</Status>
+<Status>
+<CmdID>3</CmdID>
+<MsgRef>1</MsgRef>
+<CmdRef>2</CmdRef>
+<Cmd>Replace</Cmd>
+<Data>200</Data>
+</Status>
+<Final></Final>
+</SyncBody>
+</SyncML>

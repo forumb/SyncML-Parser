@@ -1,0 +1,18 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<Tree>
+<Node>
+    <NodeName>ManagedObjects</NodeName>
+    <DFProperties>
+        <DFFormat>
+            <node/>
+        </DFFormat>
+        <AccessType>
+            <Get/>
+            <Add/>
+            <Replace/>
+            <Delete/>
+        </AccessType>
+    </DFProperties>
+    <Type>text/plain</Type>
+</Node></Tree>
